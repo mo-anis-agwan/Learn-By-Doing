@@ -11,7 +11,14 @@ struct ContentView: View {
     
     //MARK:- Content
     var body: some View {
-        CardView()
+        ScrollView(.horizontal, showsIndicators: false, content: {
+            HStack(alignment: .center, spacing: 20, content: {
+                ForEach(0..<6) { item in
+                    CardView()
+                }
+            })
+            .padding(20)
+        })
     }
 }
 
