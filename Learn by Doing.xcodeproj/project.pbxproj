@@ -11,6 +11,7 @@
 		88149530271AC274002A6A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814952F271AC274002A6A6C /* ContentView.swift */; };
 		88149532271AC27D002A6A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88149531271AC27D002A6A6C /* Assets.xcassets */; };
 		88149535271AC27D002A6A6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88149534271AC27D002A6A6C /* Preview Assets.xcassets */; };
+		881ACDBD271AEF1800399F79 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881ACDBC271AEF1800399F79 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		88149531271AC27D002A6A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88149534271AC27D002A6A6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88149536271AC27D002A6A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881ACDBC271AEF1800399F79 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				88149531271AC27D002A6A6C /* Assets.xcassets */,
 				88149536271AC27D002A6A6C /* Info.plist */,
 				88149533271AC27D002A6A6C /* Preview Content */,
+				881ACDBC271AEF1800399F79 /* Launch Screen.storyboard */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88149535271AC27D002A6A6C /* Preview Assets.xcassets in Resources */,
+				881ACDBD271AEF1800399F79 /* Launch Screen.storyboard in Resources */,
 				88149532271AC27D002A6A6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
