@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    //MARK:- Properties
+    //MARK: - Properties
     var cards: [Card] = cardData
     
-    //MARK:- Content
+    //MARK: - Content
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false, content: {
             HStack(alignment: .center, spacing: 20, content: {
@@ -24,6 +24,7 @@ struct ContentView: View {
     }
 }
 
+    //MARK: - Preview
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(cards: cardData)

@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct CardView: View {
-    //MARK:- Properites
+    //MARK: - Properites
     var card: Card
         
-    //MARK:- CARD
+    //MARK: - CARD
     
     var body: some View {
         ZStack {
@@ -33,6 +33,7 @@ struct CardView: View {
             
             Button(action: {
                 print("Button was pressed")
+                playSound(sound: "sound-chime", type: "mp3")
             }, label: {
                 HStack {
                     Text(card.callToAction.uppercased())
@@ -60,7 +61,7 @@ struct CardView: View {
     }
 }
 
-    //MARK:- Preview
+    //MARK: - Preview
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(card: cardData[1])

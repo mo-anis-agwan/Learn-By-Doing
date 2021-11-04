@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-//MARK:- Card Model
+//MARK: - Card Model
 
 struct Card: Identifiable {
     var id = UUID()

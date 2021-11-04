@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-//MARK:- Card Data
+//MARK: - Card Data
 let cardData: [Card] = [
     Card(
         title: "SwiftUI 2",
