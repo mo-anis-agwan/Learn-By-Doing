@@ -15,6 +15,8 @@ struct CardView: View {
     @State private var moveDown: Bool = false
     @State private var moveUp: Bool = false
     
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    
     //MARK: - CARD
     
     var body: some View {
@@ -39,6 +41,7 @@ struct CardView: View {
             Button(action: {
                 print("Button was pressed")
                 playSound(sound: "sound-chime", type: "mp3")
+                self.hapticImpact.impactOccurred()
             }, label: {
                 HStack {
                     Text(card.callToAction.uppercased())
