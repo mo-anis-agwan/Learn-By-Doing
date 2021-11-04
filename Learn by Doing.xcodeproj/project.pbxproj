@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE83F6227342A0000BD516F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE83F6127342A0000BD516F /* CardModel.swift */; };
 		8814952E271AC274002A6A6C /* Learn_by_DoingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814952D271AC274002A6A6C /* Learn_by_DoingApp.swift */; };
 		88149530271AC274002A6A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814952F271AC274002A6A6C /* ContentView.swift */; };
 		88149532271AC27D002A6A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88149531271AC27D002A6A6C /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CE83F6127342A0000BD516F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		8814952A271AC274002A6A6C /* Learn by Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn by Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8814952D271AC274002A6A6C /* Learn_by_DoingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_by_DoingApp.swift; sourceTree = "<group>"; };
 		8814952F271AC274002A6A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				88149533271AC27D002A6A6C /* Preview Content */,
 				881ACDBC271AEF1800399F79 /* Launch Screen.storyboard */,
 				881ACDBE271AEFB800399F79 /* CardView.swift */,
+				0CE83F6127342A0000BD516F /* CardModel.swift */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88149530271AC274002A6A6C /* ContentView.swift in Sources */,
+				0CE83F6227342A0000BD516F /* CardModel.swift in Sources */,
 				881ACDBF271AEFB800399F79 /* CardView.swift in Sources */,
 				8814952E271AC274002A6A6C /* Learn_by_DoingApp.swift in Sources */,
 			);
